@@ -1,2 +1,2 @@
-# PD2-1
+# PD1-2
 Artūrs Zetmanis
