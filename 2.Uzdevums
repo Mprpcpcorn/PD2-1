@@ -14,4 +14,4 @@ nodes = [
 count = [node.split(';')[3].lower() for node in nodes].count("up")
 print("Cik serveri ir UP:", count)
 
-No kurienes dabūta komanda: https://mimo.org/glossary/python/list-count
+
