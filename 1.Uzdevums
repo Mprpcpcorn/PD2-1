@@ -11,7 +11,5 @@ nodes = [
 "Srv-Log;10.0.0.15;105;UP" 
 ] 
 
-for node in nodes:
-    name, ip, load, status = node.split(';')
-    print(f"Node Name: {name}, IP Address: {ip}, Load: {load}%, Status: {status}")
+print(str(nodes))
     
