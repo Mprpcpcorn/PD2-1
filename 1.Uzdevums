@@ -1,4 +1,3 @@
-
 nodes = [
 "Srv-Web-01;192.168.1.10;15;UP",
 "Srv-DB-01;192.168.1.20;450;UP",
@@ -12,4 +11,7 @@ nodes = [
 "Srv-Log;10.0.0.15;105;UP" 
 ] 
 
-print(str(nodes))
+for node in nodes:
+    name, ip, load, status = node.split(';')
+    print(f"Node Name: {name}, IP Address: {ip}, Load: {load}%, Status: {status}")
+    
